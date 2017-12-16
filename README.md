@@ -6,3 +6,6 @@ Please use Jekyll. We aren't quite sure how to do that yet. One of us is very pa
 
 # Branches
 Upon the suggestion of experienced web designers, we use 2 branches: develop, and master. Develop is used (as the name suggests) for the development of pages. Please send pull requests to that branch. We use master to host the website, so we will push develop to master periodically. 
+
+# Contact Us
+Here!: markvillerobotics@gmail.com
