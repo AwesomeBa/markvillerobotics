@@ -1,6 +1,9 @@
 # Markville Robotics Website
 This is a website for Markville Robotics. It will be used for various functions, such as resource sharing, advertisment, and recordkeeping.
 
+# Issues
+Find a issue with the webpages? Make a issue report (click that 'issues' tab).
+
 # Contribution 
 Please use Jekyll. We aren't quite sure how to do that yet. Currently, most of the development happens on a guess and check basis. Please excuse broken segments and spaghetti code.
 
