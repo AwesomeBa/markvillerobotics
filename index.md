@@ -7,12 +7,14 @@ title: Markville Robotics
 Welcome to Markville Robotic's website!
 What is Markville Robotics, you ask? Well, Markville Robotics is the robotics initiative at Markville Secondary School.
 
-### Announcements
+## Announcements
 <ul>
   {% for post in site.categories.announcements %}
     <li>
-      ### <a href="{{ post.url }}">{{ post.title }}
+      <a href="{{ post.url }}">{{ post.title }}
       </a><{{ post.summary }}
     </li>
   {% endfor %}
 </ul>
+
+###
