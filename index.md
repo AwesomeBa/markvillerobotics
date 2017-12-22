@@ -4,7 +4,7 @@ title: Markville Robotics
 ---
 
 ## Hello!
-Welcome to Markville Robotic's website!
+Welcome to Markville Robotics' website!
 What is Markville Robotics, you ask? Well, Markville Robotics is the robotics initiative at Markville Secondary School.
 
 ## Announcements
@@ -20,9 +20,9 @@ Please excuse the broken date formatting.
 
 ## Lessons
 <ul>
-  {% for page in site.categories.lessons %}
+   {% for post in site.categories.lessons %}
     <li>
-      <a href="{{ page.url }}"> {{ page.title }} </a> <br> {{ page.summary }}
+      <a href="{{ post.url }}"> {{ post.title }} </a> <br> {{ post.summary }}
       <br>
     </li>
   {% endfor %}
@@ -30,9 +30,9 @@ Please excuse the broken date formatting.
 
 ## Resources
 <ul>
-  {% for page in site.categories.resources %}
+  {% for post in site.categories.resources %}
     <li>
-      <a href="{{ page.url }}"> {{ page.title }} </a> <br> {{ page.summary }}
+      <a href="{{ post.url }}"> {{ post.title }} </a> <br> {{ post.summary }}
       <br>
     </li>
   {% endfor %}
