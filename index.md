@@ -20,9 +20,9 @@ Please excuse the broken date formatting.
 
 ## Lessons
 <ul>
-  {% for page in site.categories.lessons %}
+  {% for post in site.categories.lessons %}
     <li>i
-      <a href="{{ page.url }}"> {{ page.title }} </a> <br> {{ page.summary }}
+      <a href="{{ post.url }}"> {{ post.title }} </a> <br> {{ post.summary }}
       <br>
     </li>
   {% endfor %}
@@ -30,9 +30,9 @@ Please excuse the broken date formatting.
 
 ## Resources
 <ul>
-  {% for page in site.categories.resources %}
+  {% for post in site.categories.resources %}
     <li>i
-      <a href="{{ page.url }}"> {{ page.title }} </a> <br> {{ page.summary }}
+      <a href="{{ post.url }}"> {{ post.title }} </a> <br> {{ post.summary }}
       <br>
     </li>
   {% endfor %}
