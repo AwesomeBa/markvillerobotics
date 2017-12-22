@@ -11,7 +11,7 @@ What is Markville Robotics, you ask? Well, Markville Robotics is the robotics in
 Please excuse the broken date formatting.
 <ul>
   {% for post in site.categories.announcements %}
-    <li>i
+    <li>
       <a href="{{ post.url }}"> {{ post.title }} - {{ post.date }} </a> <br> {{ post.summary }}
       <br>
     </li>
@@ -21,7 +21,7 @@ Please excuse the broken date formatting.
 ## Lessons
 <ul>
   {% for page in site.categories.lessons %}
-    <li>i
+    <li>
       <a href="{{ page.url }}"> {{ page.title }} </a> <br> {{ page.summary }}
       <br>
     </li>
@@ -31,7 +31,7 @@ Please excuse the broken date formatting.
 ## Resources
 <ul>
   {% for page in site.categories.resources %}
-    <li>i
+    <li>
       <a href="{{ page.url }}"> {{ page.title }} </a> <br> {{ page.summary }}
       <br>
     </li>
