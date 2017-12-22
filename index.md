@@ -11,8 +11,8 @@ What is Markville Robotics, you ask? Well, Markville Robotics is the robotics in
 <ul>
   {% for post in site.categories.announcements %}
     <li>
-      <a href="{{ post.url }}"> {{ post.title }} - {{page.date}}
-      </a> {{ post.summary }}
+      <a href="{{ post.url }}"> {{ post.title }} - {{page.date}} </a> 
+      {{ post.summary }}
     </li>
   {% endfor %}
 </ul>
