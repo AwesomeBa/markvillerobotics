@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: We Have A Website!
 categories: announcements
 summary: "New site! Whoohoo!"
