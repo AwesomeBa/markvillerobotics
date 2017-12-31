@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: How To Install ROBOTC
 categories: resources
 summary: "Click some buttons"
