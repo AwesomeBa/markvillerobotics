@@ -4,6 +4,7 @@ categories: resources
 layout: post:
 summary: "Things to help with coding in RobotC"
 ---
+
 At Markville Robotics, we use VEX Cortex robots. These must be programmed in the RobotC programming language. You should have already downloaded, installed, and set up the RobotC IDE using [these](https://markvillerobotics.github.io/resources/0001/01/01/how-to-install-robotc.html) instructions. 
 
 We covered programming in RobotC during an in-club lessons, which will soon be availible in the lessons section. However, a simple tutorial is availible [here](http://www.robotc.net/tutor/Cortex/cortexunits.php?platform=Cortex).
