@@ -1,7 +1,7 @@
 ---
 title: RobotC Reference
 categories: resources
-layout: post:
+layout: post
 summary: "Things to help with coding in RobotC"
 ---
 
