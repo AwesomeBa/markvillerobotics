@@ -9,4 +9,4 @@ At Markville Robotics, we use VEX Cortex robots. These must be programmed in the
 
 We covered programming in RobotC during an in-club lessons, which will soon be availible in the lessons section. However, a simple tutorial is availible [here](http://www.robotc.net/tutor/Cortex/cortexunits.php?platform=Cortex).
 
-Once you know how to code in RobotC, it is useful to have a reference of the methods that you will need to use. RobotC-specific methods are called Natural Language. A quick guide is availible [here](http://cdn.robotc.net/pdfs/natural-language/NL_Cortex_Quick.pdf], and a more comprehensive guide is availible [here](http://cdn.robotc.net/pdfs/natural-language/Natural_Language_Cortex.pdf)
+Once you know how to code in RobotC, it is useful to have a reference of the methods that you will need to use. RobotC-specific methods are called Natural Language. A quick guide is availible [here](http://cdn.robotc.net/pdfs/natural-language/NL_Cortex_Quick.pdf), and a more comprehensive (and lengthy) guide is availible [here](http://cdn.robotc.net/pdfs/natural-language/Natural_Language_Cortex.pdf).
