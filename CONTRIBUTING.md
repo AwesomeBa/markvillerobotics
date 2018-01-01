@@ -5,14 +5,14 @@ There you can set variables, such as "layout:" and "title:"
 We only use "layout:", "title:", "categories:" and "summary:"
 End the front matter with another three dashes
 Here is an example:
-```
----
-layout: post
-title: How To Install ROBOTC
-categories: resources
-summary: "Click some buttons"
----
-```
+
+> ---
+> layout: post
+> title: How To Install ROBOTC
+> categories: resources
+> summary: "Click some buttons"
+> ---
+
 Also, there are only 3 categories: announcments, resources, and lessons. You can only use 1 of them in one post.
 
 Then you write actual content. Markdown is nice and works like word in the sense that it keeps line breaks.
