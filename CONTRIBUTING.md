@@ -41,13 +41,12 @@ For example:
 > \`\`\`
 > System.out.println("hi");
 > \`\`\`
+
 To create a syntax-highlighted code-block, add a language after the first set of pointy things.
 For example: 
-```java
-\`\`\`java
-System.out.println("hi");
-\`\`\`
-```
+> \`\`\`java
+> System.out.println("hi");
+> \`\`\`
 
 To format a header, add a number sign. Add more to make smaller headers:
 \# Header 1
