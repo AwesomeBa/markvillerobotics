@@ -6,12 +6,12 @@ We only use "layout:", "title:", "categories:" and "summary:"
 End the front matter with another three dashes
 Here is an example:
 
-> ---
+> \-\-\-
 > layout: post
 > title: How To Install ROBOTC
 > categories: resources
 > summary: "Click some buttons"
-> ---
+> \-\-\-
 
 Also, there are only 3 categories: announcments, resources, and lessons. You can only use 1 of them in one post.
 
