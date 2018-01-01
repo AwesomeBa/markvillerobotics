@@ -20,13 +20,16 @@ Also, there are only 3 categories: announcments, resources, and lessons. You can
 Then you write actual content. Markdown is nice and works like word in the sense that it keeps line breaks.
 
 So if I write:
+```
 p
 otato
+```
 
 It will come out as:
+```
 P
 otato
-
+```
 To format italic, surround the italisized text with *
 To format bold, surround the bolded text with **
 To format underline, surround the underlined text with __
