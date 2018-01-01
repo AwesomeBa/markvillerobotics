@@ -1,6 +1,6 @@
-Here are markdown guidelines specific to our website.
+Here are markdown guidelines specific to making a post on our website.
 
-You start with a YAML front matter, which begins with three dashes "---"
+Start with a YAML front matter, which begins with three dashes "---"
 There you can set variables, such as "layout:" and "title:"
 We only use "layout:", "title:", "categories:" and "summary:"
 End the front matter with another three dashes
