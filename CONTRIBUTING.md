@@ -53,21 +53,25 @@ For example:
 > \`\`\`
 
 To format a header, add a number sign. Add more to make smaller headers:
-\# Header 1
-\## Header 2
-\### Header 3 
-\#### Header 4 
-\##### Header 5 
-\###### Header 6 
-
+```
+# Header 1
+## Header 2
+### Header 3 
+#### Header 4 
+##### Header 5 
+###### Header 6 
+```
 To format a list, use numbers and dots or dashes:
-\1. One
-\2. Two
-\- Dash
-\- Dash
+```
+1. One
+2. Two
+- Dash
+- Dash
+```
 
 To nest the list, add spaces to match the number of characters in the list:
-\1. one
-\2. two
-   \a. aye
-
+```
+1. one
+2. two
+   a. aye
+```
