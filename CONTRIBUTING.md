@@ -39,13 +39,17 @@ For example: ```[this is a link](www.link.link.link.ca)```
 To create a code-block, surround with three pointy things: \`\`\`
 For example: 
 > \`\`\`
+
 > System.out.println("hi");
+
 > \`\`\`
 
 To create a syntax-highlighted code-block, add a language after the first set of pointy things.
 For example: 
 > \`\`\`java
+
 > System.out.println("hi");
+
 > \`\`\`
 
 To format a header, add a number sign. Add more to make smaller headers:
