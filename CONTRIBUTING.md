@@ -50,12 +50,12 @@ System.out.println("hi");
 System.out.println("there");
 '''
 ```
-We used quote marks because it broke.
+(We used quote marks because it broke.)
 Result:
-`
+```
 System.out.println("hi");
 System.out.println("there");
-`
+```
 
 To create a syntax-highlighted code-block, add a language after the first pointy thing.
 For example: 
