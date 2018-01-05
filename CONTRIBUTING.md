@@ -43,13 +43,14 @@ To create a code tag, simply surround the code with these: \`
 ```
 Result: `System.out.println("hi");`
 
-A code block can span multiple lines.
+A code block can span multiple lines, but you must use three backticks: \`\`\`
 ```
-`
+'''
 System.out.println("hi");
 System.out.println("there");
-`
+'''
 ```
+We used quote marks because it broke.
 Result:
 `
 System.out.println("hi");
