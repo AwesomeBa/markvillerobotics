@@ -41,6 +41,20 @@ To create a code tag, simply surround the code with these: \`
 ```
 `System.out.println("hi");`
 ```
+Result: `System.out.println("hi");`
+
+A code block can span multiple lines.
+```
+`
+System.out.println("hi");
+System.out.println("there");
+`
+```
+Result:
+`
+System.out.println("hi");
+System.out.println("there");
+`
 
 To create a syntax-highlighted code-block, add a language after the first pointy thing.
 For example: 
@@ -49,6 +63,10 @@ For example:
 System.out.println("hi");
 `
 ```
+Result:
+`java
+System.out.println("hi");
+`
 
 To format a header, add a number sign. Add more to make smaller headers:
 ```
