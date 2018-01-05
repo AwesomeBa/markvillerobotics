@@ -34,14 +34,20 @@ To format italic, surround the italisized text with *
 To format bold, surround the bolded text with **
 To format underline, surround the underlined text with __
 To create a link, first put the link text in square brackets, then put the link right after in parentheses.
-For example: ```[this is a link](www.link.link.link.ca)```
+For example: `[this is a link](www.link.link.link.ca)`
 
-To create a code-block, surround with three pointy things: \`\`\`
+How did I make that code tag?
+To create a code tag, simply surround the code with a: \`
+```
+`System.out.println("hi");`
+```
+
+To create a big code-block, surround with three pointy things: \`\`\`
 For example: 
 ```
-\`\`\`
+`
 System.out.println("hi");
-\`\`\`
+`
 ```
 
 To create a syntax-highlighted code-block, add a language after the first set of pointy things.
