@@ -34,23 +34,43 @@ To format italic, surround the italisized text with *
 To format bold, surround the bolded text with **
 To format underline, surround the underlined text with __
 To create a link, first put the link text in square brackets, then put the link right after in parentheses.
-For example: ```[this is a link](www.link.link.link.ca)```
+For example: `[this is a link](www.link.link.link.ca)`
 
-To create a code-block, surround with three pointy things: \`\`\`
+How did I make that code tag?
+To create a code tag, simply surround the code with these: \`
+```
+`System.out.println("hi");`
+```
+Result: `System.out.println("hi");`
+
+
+A code block can span multiple lines, but you must use three backticks: \`\`\`
+```
+'''
+System.out.println("hi");
+System.out.println("there");
+'''
+```
+(We used quote marks because it broke.)
+Result:
+```
+System.out.println("hi");
+System.out.println("there");
+```
+
+
+To create a syntax-highlighted code-block, add a language after the first pointy thing.
 For example: 
-> \`\`\`
+```
+'''java
+System.out.println("hi");
+'''
+```
+Result:
+```java
+System.out.println("hi");
+```
 
-> System.out.println("hi");
-
-> \`\`\`
-
-To create a syntax-highlighted code-block, add a language after the first set of pointy things.
-For example: 
-> \`\`\`java
-
-> System.out.println("hi");
-
-> \`\`\`
 
 To format a header, add a number sign. Add more to make smaller headers:
 ```
