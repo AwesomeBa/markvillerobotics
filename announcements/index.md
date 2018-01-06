@@ -2,11 +2,10 @@
 layout: category
 title: Announcements
 ---
-Please excuse the broken date formatting.
 <ul>
   {% for post in site.categories.announcements %}
     <li>
-      <a href="{{ post.url }}"> {{ post.title }} - {{ post.date }} </a> <br> {{ post.summary }}
+      <a href="{{ post.url }}"> {{ post.title }} - {{ post.date | date: '%B %d, %Y' }} </a> <br> {{ post.summary }}
       <br><br>
     </li>
   {% endfor %}
