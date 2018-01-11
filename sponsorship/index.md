@@ -11,5 +11,5 @@ We are also willing to offer logo placing rights for your organization, and we w
 $ 6500 CAD !
 
 ## Every Cent Helps! 
-Come to our gofundme page to pledge a small amount of money at: https://www.gofundme.com/firstmss/
+Come to our gofundme page to pledge a small amount of money at: https://www.gofundme.com/firstmss/ .
 For contact information, please see the contact page.
