@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Happy Holidays!
 categories: announcements
 summary: "Food and winter break."
