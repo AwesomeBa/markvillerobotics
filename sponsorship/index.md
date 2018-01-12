@@ -15,8 +15,8 @@ This consists of $ 6 500 for basic registration at FIRST Ontario, $ 1 300 for an
 
 ## Every Cent Helps! 
 Even though we will need a grand $ 10 000, we will extremely grateful for any amount of money that you can donate.
-Come to our gofundme page to pledge electronically (here)[https://www.gofundme.com/firstmss]
-For other payment methods, please contact us at (markvillerobotics@gmail.com)[mailto:markvillerobotics@gmail.com]
+Come to our gofundme page to pledge electronically [here](https://www.gofundme.com/firstmss)
+For other payment methods, please contact us at [markvillerobotics@gmail.com](mailto:markvillerobotics@gmail.com)
 
 ## What You Get
 We would happy to place your organization logo on our robot, and place you on our sponsors list!
