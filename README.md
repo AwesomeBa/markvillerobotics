@@ -9,6 +9,13 @@ We use Jekyll. That means posts should be created in a Markdown + HTML + Liquid 
 When develop is being pushed to master, use "Update" as the name of the push!
 See [here](CONTRIBUTING.md) for a posting guide that is more applicable to our website.
 
+The following nice people have contributed:
+- Balaji Venkatesh
+- Michael Zhou
+- Timothy Chan
+- Robert Cai
+- Joseph Wang
+
 ## Branches
 Upon the suggestion of experienced web designers, we use 2 branches: develop, and master. Develop is used (as the name suggests) for the development of pages. Please send pull requests to that branch. We use master to host the website, so we will push develop to master periodically. 
 
