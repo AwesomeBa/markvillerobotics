@@ -1,9 +1,10 @@
 ---
+layout: post
 title: Comprehensive ROBOTC Guide
 summary: Comprehensive ROBOTC Guide
 category: resources
 ---
-The following links are 2 volumes of an amazing ROBOTC guide created by George Gillard.
+The following links are 2 volumes of an amazing ROBOTC guide created by George Gillard. [Here](http://georgegillard.com/) is his website.
 
 [Volume 1](http://georgegillard.com/programming-guides/beginnersguidetorobotcvol1ed3-pdf?format=raw)
 
