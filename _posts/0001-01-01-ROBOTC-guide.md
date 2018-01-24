@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Comprehensive ROBOTC Guide
 summary: Comprehensive ROBOTC Guide
 category: resources
