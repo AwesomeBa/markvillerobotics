@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/MarkvilleRobotics/markvillerobotics.github.io.svg?branch=develop)](https://travis-ci.org/MarkvilleRobotics/markvillerobotics.github.io)
 # Markville Robotics Website
 This is a website for Markville Robotics. It will be used for various functions, such as resource sharing, advertisment, and recordkeeping.
 
