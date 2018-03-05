@@ -6,9 +6,6 @@ title: Markville Robotics
 ## Hello!
 Welcome to Markville Robotics' website! What is Markville Robotics, you ask? Well, Markville Robotics is the robotics initiative at Markville Secondary School. We are a student-led organization that provides opportunities for students in the school interested in developing skills around robotics and Computer Engineering. 
 
-## Description (temp)
-Markville Robotics is the robotics initiative at Markville Secondary School. We are a student-led organization within that provides opportunities for students in the school interested in developing skills around robotics and Computer Engineering. 
-
 ## [Sponsorship Information](https://markvillerobotics.github.io/sponsorship/)
 We need your support!
 
