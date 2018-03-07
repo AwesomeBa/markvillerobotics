@@ -7,7 +7,7 @@ sitemap:
     lastmod: 2018-03-05
     changefreq: weekly
 ---
-<!DOCTYPE HTML>
+
 
 <html>
 	<head>
