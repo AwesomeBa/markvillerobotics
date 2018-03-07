@@ -1,7 +1,7 @@
 # Site
-title:              Massively
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+title:              Markville Robotics
+bio:                'The robotics initiative at Markville Secondary School'
+description:        "The robotics initiative at Markville Secondary School"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -34,16 +34,16 @@ sass:
 disqus_shortname:   default
 
 # Social
-analytics-id:       "default"
+analytics-id:       "UA-115295874-1"
 twitter:            default
 facebook:           default
 instagram:          default
 github:             default
 
 # personal
-location:           Los Angeles, CA
-phone:              310-318-5555
-email:              info@default.com
+location:           Markham, ON
+phone:              (905) 940 - 8840
+email:              markvillerobotics@gmail.com
 
 # Gems
 gems:
