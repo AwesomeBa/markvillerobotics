@@ -13,12 +13,10 @@ Markville Robotics is the robotics initiative at Markville Secondary School. We 
 
 ### Leading Members
 <div class="box">
-  <p>
       Mr. Simon Huang - Teacher Supervisor 
       Balaji Venkatesh - Student President
       Michael Zhou - Design Team Head
       Robert Cai - Build Team Head
       Timothy Chan - Programming Team Head
       Joseph Wang - Outreach Team Head
-  </p>
 </div>
