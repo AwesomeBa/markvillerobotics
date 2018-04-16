@@ -1,0 +1,28 @@
+---
+layout: page
+title: News - Markville Robotics
+description: Wow things happen thats kool yo.
+sitemap:
+    priority: 0.7
+    lastmod: 2018-03-08
+    changefreq: weekly
+---
+Recent stuffs (automajically generated list):
+
+<!-- Posts -->
+							<section class="posts">
+                {% for post in site.posts limit:4 %}
+  								<article>
+  									<header>
+  										<span class="date">{{ post.date | date_to_string }}</span>
+  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+  									</header>
+  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+  									<p>{{ post.summary }}</p>
+  									<ul class="actions">
+  										<li><a href="{{ post.url | absolute_url }}" class="button">More</a></li>
+  									</ul>
+  								</article>
+                {% endfor %}
+
+							</section>
