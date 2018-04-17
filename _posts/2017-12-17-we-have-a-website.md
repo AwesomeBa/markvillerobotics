@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "We Have A Website!"
-categories: announcements
 date: 2017-12-17
+lastmod: 2018-04-17
 excerpt: "New site! Whoohoo!"
 ---
 Hello!
