@@ -11,12 +11,12 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "/blog/:title/"
+    permalink: "/news/:title/"
     layout: post
     author:
 
 # Jekyll
-permalink:          /blog/:title/
+permalink:          /news/:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -54,7 +54,7 @@ gems:
   - jekyll-paginate
 
 paginate: 6
-paginate_path: "/blog/page:num/"
+paginate_path: "/news/page:num/"
 
 jekyll-mentions:
     base_url: https://github.com
