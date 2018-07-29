@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Team formation and cancelled meetings
-categories: announcements
+lastmod: 2018-04-17
 summary: As title says
 ---
 Hello,

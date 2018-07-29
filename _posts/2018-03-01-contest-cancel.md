@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Contest Cancelled
-categories: announcements
+lastmod: 2018-04-17
 summary: ":("
 ---
 Hello.
