@@ -7,4 +7,4 @@ excerpt: "Are you ready?"
 Hello and Welcome!
 Welcome to Markville Robotics' new website, updated for 2018. This website will be used for resource sharing, advertisment, and recordkeeping. 
 
-Contact us at: [markvillerobotics@gmail.com]({markvillerobotics@gmail.com})
+Contact us at: <a href="mailto:markvillerobotics@gmail.com">markvillerobotics@gmail.com</a>
