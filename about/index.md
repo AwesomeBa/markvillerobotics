@@ -20,4 +20,4 @@ Markville Robotics is the robotics initiative at Markville Secondary School. We 
       <p>Joseph Wang - Outreach Team Head</p>
 </div>
 
-<img src=" /images/controller-and-robot.jpg" alt="">
+<img src=" /images/controller-and-robot.jpg" alt="" width="1328" height="747">
