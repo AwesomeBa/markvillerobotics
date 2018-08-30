@@ -19,3 +19,5 @@ Markville Robotics is the robotics initiative at Markville Secondary School. We 
       <p>Robert Cai & Timothy Chan - Software Team Heads</p>
       <p>Joseph Wang - Outreach Team Head</p>
 </div>
+
+<a href="#" class="image main"><img src="{{ "/images/controller-and-robot.jpg" | absolute_url }}" alt="" /></a>
