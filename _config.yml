@@ -1,30 +1,30 @@
-title: Your awesome title
-name: Your Name
-email: your-email@example.com
-description: Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+title: Markville Robotics
+name: Markville Robotics
+email: markvillerobotics@gmail.com
+description: Markville Robotics is the robotics initiative at Markville Secondary School. We are a student-led organization that provides opportunities for students in the school interested in developing skills around robotics and Computer Engineering.
 
-baseurl: "/blog"
+baseurl: ""
 url: ""
 
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
 parallax_image_one: assets/images/claw-robot.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
+parallax_image_two: assets/images/claw-robot-2.jpg
 
-project_one: "First Project"
-project_one_description: Describe your project!
-project_one_url: https://github.com/jameshamann/jekyll-material-theme
+project_one: Sign Up!
+project_one_description: Sign up to receive emails about Markville Robotics!
+project_one_url: https://goo.gl/forms/OpoGNHJMhYFh4PDg1
 project_one_icon: location_on
 
-project_two: Second Project
+project_two: Resources
 project_two_description: Describe your project!
-project_two_url: https://github.com/jameshamann/jekyll-material-theme
+project_two_url: https://drive.google.com/drive/folders/1c3ke5UZ9DM0oGpaEePcjuwxxFr4rYdOl
 project_two_icon: photo_camera
 
 
-project_three: Third Project
+project_three: Github Code Repo
 project_three_description: Describe your project!
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
+project_three_url: https://github.com/MarkvilleRobotics/code
 project_three_icon: hotel
 
 
@@ -33,113 +33,11 @@ project_four_description: Describe your project!
 project_four_url: https://github.com/jameshamann/jekyll-material-theme
 project_four_icon: restaurant
 
-portfolio_heading: Portfolio
+portfolio_heading: Links
 portfolio_type: cards
 
 syntax_highlighting: true
 # Skill icons from https://konpa.github.io/devicon/
-
-skills:
-  - name: amazonwebservices
-  - name: android
-  - name: angularjs
-  - name: apache
-  - name: appcelerator
-  - name: apple
-  - name: atom
-  - name: babel
-  - name: backbonejs
-  - name: bitbucket
-  - name: bootstrap
-  - name: bower
-  - name: c
-  - name: chrome
-  - name: codeigniter
-  - name: coffescript
-  - name: confluence
-  - name: cplusplus
-  - name: csharp
-  - name: css3
-  - name: cucumber
-  - name: d3js
-  - name: debian
-  - name: devicon
-  - name: django
-  - name: docker
-  - name: doctrine
-  - name: dot-net
-  - name: drupal
-  - name: erlang
-  - name: facebook
-  - name: firefox
-  - name: foundation
-  - name: gatling
-  - name: gimp
-  - name: git
-  - name: github
-  - name: gitlab
-  - name: go
-  - name: google
-  - name: gradle
-  - name: grunt
-  - name: gulp
-  - name: heroku
-  - name: html5
-  - name: ie10
-  - name: illustrator
-  - name: inkscape
-  - name: itellij
-  - name: java
-  - name: jasmine
-  - name: javascript
-  - name: laravel
-  - name: less
-  - name: linux
-  - name: meteor
-  - name: mocha
-  - name: mongodb
-  - name: moodle
-  - name: mysql
-  - name: nginx
-  - name: nodejs
-  - name: nodewebkit
-  - name: oracle
-  - name: photoshop
-  - name: php
-  - name: phpstorm
-  - name: protractor
-  - name: postgresql
-  - name: python
-  - name: pycharm
-  - name: rails
-  - name: react
-  - name: redhat
-  - name: redis
-  - name: ruby
-  - name: rubymine
-  - name: safari
-  - name: sass
-  - name: sequelize
-  - name: slack
-  - name: sourcetree
-  - name: ssh
-  - name: swift
-  - name: symfony
-  - name: tomcat
-  - name: travis
-  - name: trello
-  - name: twitter
-  - name: typescript
-  - name: ubuntu
-  - name: vim
-  - name: visualstudio
-  - name: vuejs
-  - name: webpack
-  - name: webstorm
-  - name: windows8
-  - name: wordpress
-  - name: yii
-  - name: zend
 
 icon_size: 50 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
@@ -154,7 +52,7 @@ url: http://localhost:4000/ #the url of your site
 
 # Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
 tag_manager_id: # This looks something like GTM-XXXXXXX
-google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+google_analytics_tracking_id: UA-115295874-1 # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
 
 cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
 
