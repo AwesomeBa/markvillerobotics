@@ -1,99 +1,88 @@
----
-layout: null
-title: Home - Markville Robotics
-description: Homepage
-sitemap:
-    priority: 1.0
-    lastmod: 2018-03-05
-    changefreq: weekly
----
+--- layout: null title: Home - Markville Robotics description: Homepage sitemap: priority: 1.0 lastmod: 2018-03-05 changefreq:
+weekly ---
 
 <!DOCTYPE html>
 
 <html>
-	<head>
-    {% include head.html %}
 
-	</head>
-	<body class="is-loading">
+<head>
+	{% include head.html %}
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+</head>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h2>Welcome To</h2>
-           					<h1>Markville Robotics</h1>
-						<p>Markville Robotics is the robotics initiative at Markville Secondary School. We are a student-led organization that provides opportunities for students in the school interested in developing skills around robotics and Computer Engineering.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+<body class="is-loading">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Intro -->
+		<div id="intro">
+			<h2>Welcome To</h2>
+			<h1>Markville Robotics</h1>
+			<p>Markville Robotics is the robotics initiative at Markville Secondary School. We are a student-led organization that
+				provides opportunities for students in the school interested in developing skills around robotics and Computer Engineering.</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+		</div>
+
+		<!-- Header -->
+		<header id="header">
+			<a href="{{ " / " | absolute_url }}" class="logo">{{site.title}}</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			{% include nav.html %}
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<h2>Hello</h2>
+					<p>This is Markville Robotics' website, where you can find info about the team and sponsorship, learn about team events,
+						and get team resources</p>
+				</header>
+				<a href="#" class="image main"><img src="{{ " /images/2-ytbanner.jpg " | absolute_url }}" alt="" /></a>
+				<a class="image main"><img src=" /images/claw-robot-2.jpg" alt=""></a>
+
+			</article>
+			<h2>Recent news:</h2>
+			<!-- Posts -->
+			<section class="posts">
+
+				{% for post in site.posts limit:2 %}
+				<article>
+					<header>
+						<span class="date">{{ post.date | date_to_string }}</span>
+						<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
 					</header>
+					<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+					<p>{{ post.summary }}</p>
+					<ul class="actions">
+						<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+					</ul>
+				</article>
+				{% endfor %}
 
-				<!-- Nav -->
-					<nav id="nav">
+			</section>
 
-            {% include nav.html %}
+			<!-- Footer -->
+			<footer>
+			</footer>
 
-						<ul class="icons">
-                            Contact Us!   ->
-                            <li><a href="mailto:markvillerobotics@gmail.com" class="icon fa-envelope" rel="nofollow"><span class="label">Contact</span></a></li>
-                            <li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-                            <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+		</div>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>Hello</h2>
-									<p>This is Markville Robotics' website, where you can find info about the team and sponsorship, learn about team events, and get team resources</p>
-								</header>
-								<a href="#" class="image main"><img src="{{ "/images/2-ytbanner.jpg" | absolute_url }}" alt="" /></a>
-								<a class="image main"><img src=" /images/claw-robot-2.jpg" alt=""></a>
+		<!-- Footer -->
+		{% include foot.html %}
 
-                					</article>
-<h2>Recent news:</h2>
-						<!-- Posts -->
-							<section class="posts">
-								
-                {% for post in site.posts limit:2 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.summary }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                {% endfor %}
+	</div>
 
-							</section>
+	<!-- Scripts -->
+	{% include scripts-main.html %} {% include tracking.html %}
 
-						<!-- Footer -->
-							<footer>
-							</footer>
+</body>
 
-					</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
-
-			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
-
-	</body>
 </html>

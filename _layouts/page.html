@@ -1,60 +1,44 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
-	<head>
-    {% include head.html %}
-	</head>
-	<body class="is-loading">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<head>
+	{% include head.html %}
+</head>
 
-				<!-- Header -->
-				<header id="header">
-					<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-				</header>
+<body class="is-loading">
 
-				<!-- Nav -->
-					<nav id="nav">
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
 
-            {% include nav.html %}
+		<!-- Header -->
+		<header id="header">
+			<a href="{{ " / " | absolute_url }}" class="logo">{{site.title}}</a>
+		</header>
 
-						<ul class="icons">
-              						Contact Us!
-                            				<li><a href="mailto:markvillerobotics@gmail.com" class="icon fa-envelope" rel="nofollow"><span class="label">Contact</span></a></li>
-                            				<li><a href="https://facebook.com/{{site.facebook}}" class="icon fa-facebook" rel="nofollow"><span class="label">Facebook</span></a></li>
-                            				<li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+		<!-- Nav -->
+		<nav id="nav">
+			{% include nav.html %}
+		</nav>
 
-				<!-- Main -->
-				<div id="main">
+		<!-- Main -->
+		<div id="main">
 
-					<!-- Post -->
-					<section class="post">
-						<p>{{content}}</p>
-					</section>
+			<!-- Post -->
+			<section class="post">
+				<p>{{content}}</p>
+			</section>
 
-					<!-- Footer -->
-						<footer>
-              <ul class="actions">
-              </ul>
-						</footer>
-					</div>
+		</div>
 
-				<!-- Footer -->
-        {% include foot.html %}
+		<!-- Footer -->
+		{% include foot.html %}
 
-			</div>
+	</div>
 
-			<!-- Scripts -->
-			{% include scripts-main.html %}
-			{% include tracking.html %}
+	<!-- Scripts -->
+	{% include scripts-main.html %} {% include tracking.html %}
 
-	</body>
+</body>
+
 </html>
