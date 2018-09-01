@@ -1,48 +1,24 @@
-<!DOCTYPE HTML>
+---
+layout: default
+---
+  <div class="container">
+    <div class="col s10">
+    <div class="row" style="padding:10px;">
+      <a id="home" class="waves-effect waves-light btn white-text darken-2 grey z-depth-4" href="{{site.baseurl}}/#blog"><i class="material-icons">arrow_back</i></a>
+    </div>
+    <h3 class="post-title" itemprop="name headline" style="text-align:center">{{ page.title | escape }}</h3>
 
-<html>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {{ page.date | date: date_format }}
+      </time>
+      {% if page.author %}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %}</p>
 
-<head>
-	{% include head.html %}
-</head>
-
-<body class="is-loading">
-
-	<!-- Wrapper -->
-	<div id="wrapper" class="fade-in">
-
-		<!-- Header -->
-		<header id="header">
-			<a href="{{ " / " | absolute_url }}" class="logo">{{site.title}}</a>
-		</header>
-
-		<!-- Nav -->
-		<nav id="nav">
-			{% include nav.html %}
-		</nav>
-
-		<!-- Main -->
-		<div id="main">
-			<section class="post">
-				<header class="major">
-					<span class="date">{{page.date | date_to_string}}</span>
-					<h1>{{page.title}}</h1>
-					<p>{{page.summary}}</p>
-				</header>
-				<div class="image main"><img src="{{page.image}}" alt=""></div>
-				<p>{{content}}</p>
-			</section>
-
-		</div>
-
-		<!-- Footer -->
-		{% include foot.html %}
-
-	</div>
-
-	<!-- Scripts -->
-	{% include scripts-main.html %} {% include tracking.html %}
-
-</body>
-
-</html>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+</div>
+</div>
