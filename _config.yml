@@ -1,10 +1,10 @@
 # Site
-title:              "/images/2-worded.png"
+title:              <img src="/images/2-worded.png" alt="logo">
 bio:                'The robotics initiative at Markville Secondary School'
 description:        "The robotics initiative at Markville Secondary School"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "http://markvillerobotics.tk/" # the base hostname & protocol for your site
 
 defaults:
 - scope:
@@ -35,9 +35,7 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "UA-115295874-1"
-twitter:            default
 facebook:           markvillerobotics
-instagram:          default
 github:             MarkvilleRobotics
 
 # personal
