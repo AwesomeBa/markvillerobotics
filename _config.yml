@@ -17,13 +17,13 @@ project_one_url: https://goo.gl/forms/OpoGNHJMhYFh4PDg1
 project_one_icon: location_on
 
 project_two: Resources
-project_two_description: Describe your project!
+project_two_description: Resources, hosted on a Google Drive Folder
 project_two_url: https://drive.google.com/drive/folders/1c3ke5UZ9DM0oGpaEePcjuwxxFr4rYdOl
 project_two_icon: photo_camera
 
 
 project_three: Github Code Repo
-project_three_description: Describe your project!
+project_three_description: 
 project_three_url: https://github.com/MarkvilleRobotics/code
 project_three_icon: hotel
 
