@@ -3,7 +3,7 @@ layout: null
 title: Home - Markville Robotics
 description: Homepage
 sitemap: priority: 1.0
-lastmod: 2018-09-01 
+lastmod: 2018-09-04 
 changefreq: weekly 
 ---
 
@@ -37,10 +37,10 @@ changefreq: weekly
 
 <body class="is-loading">
 
-	<!-- Wrapper -->
+
 	<div id="wrapper" class="fade-in">
 
-		<!-- Intro -->
+
 		<div id="intro">
 			<h3>Welcome To</h3>
 			<h2>Markville Robotics</h2>
@@ -51,17 +51,15 @@ changefreq: weekly
 			</ul>
 		</div>
 
-		<!-- Header -->
 		<header id="header">
 			<a href="{{ " / " | absolute_url }}" class="logo"width="300">{{site.title}}</a>
 		</header>
 
-		<!-- Nav -->
+
 		<nav id="nav">
 			{% include nav.html %}
 		</nav>
 
-		<!-- Main -->
 		<div id="main">
 
 					<h3>Hello</h3>
@@ -70,7 +68,7 @@ changefreq: weekly
 
 			<h1>Recent news:</h1>
 
-			<!-- Posts -->
+
 
 				{% for post in site.posts limit:2 %}
 				<article>
@@ -88,12 +86,10 @@ changefreq: weekly
 
 		</div>
 
-		<!-- Footer -->
 		{% include foot.html %}
 
 	</div>
 
-	<!-- Scripts -->
 	{% include scripts-main.html %} {% include tracking.html %}
 
 		
