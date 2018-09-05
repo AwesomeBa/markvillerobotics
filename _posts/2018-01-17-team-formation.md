@@ -1,8 +1,7 @@
 ---
 layout: post
-title: Team formation and cancelled meetings
-lastmod: 2018-04-17
-summary: As title says
+title: Cancelled Meetings
+summary: And Skills Ontatio
 ---
 Hello,
 
