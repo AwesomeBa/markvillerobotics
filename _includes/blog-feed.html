@@ -1,12 +1,15 @@
 <div class="row">
   {% for post in site.posts limit: 6%}
 
-  <div class="col s12 m6">
+  <div class="col m12 l6">
     <a href="{{ post.url | relative_url }}">
       <div class="card">
         <div class="card-content">
           <span class="card-title">{{ post.title }}</span>
-          <span style="color: black">{{post.excerpt}}</span>
+          <span class=" black-text">{{post.summary}}</span>
+        </div>
+        <div class="card-action black-text">
+          {{ post.date | date: "%F"}}
         </div>
       </div>
     </a>
