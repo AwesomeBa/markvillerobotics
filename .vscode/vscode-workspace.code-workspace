@@ -10,5 +10,8 @@
 			"ginfuru.ginfuru-vscode-jekyll-syntax",
 			"ginfuru.vscode-jekyll-snippets"
 		]
+	},
+	"settings": {
+
 	}
 }
