@@ -1,0 +1,65 @@
+---
+title: index
+---
+{% include head.html %}
+{% include nav-bar.html %}
+{% include nav-burger.html %}
+
+  <div id="home" class="section scrollspy">
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+
+        <div class="card-panel">
+        <h1 class="center grey-text text-darken-2">Markville Robotics</h1>
+        <h5 class="center grey-text text-darken-2">{{ site.description }}</h5>
+        </div>
+
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="../assets/images/claw-robot.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+</div>
+
+<div class="container" style="padding:20px;">
+  <div id="links" class="section scrollspy">
+
+  <h3 style="text-align:center;">{{site.portfolio_heading}}</h3>
+
+{% include portfolio_{{site.portfolio_type}}.html %}
+
+</div>
+
+
+</div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="../assets/images/claw-robot-2.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+
+<div class="container" style="padding:20px;">
+  <div id="news" class="section scrollspy">
+  <h3 style="text-align:center;">News</h3>
+  {% include blog-feed.html %}
+</div>
+</div>
+
+<div class="container" style="padding:20px;">
+  <div id="contact" class="section scrollspy">
+  <h3 style="text-align:center;">Contact</h3>
+  {% include contact.html %}
+</div>
+</div>
+
+{% include footer.html %}
