@@ -3,9 +3,6 @@ name: Markville Robotics
 email: markvillerobotics@gmail.com
 description: Markville Robotics is the robotics initiative at Markville Secondary School. We are a student-led organization that provides opportunities for students in the school interested in developing skills around robotics and Computer Engineering.
 
-baseurl: ""
-url: ""
-
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 
 portfolio_heading: Links
@@ -19,7 +16,7 @@ github: https://github.com/MarkvilleRobotics/
 
 
 baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
-url: http://markvillerobotics.tk/ #the url of your site
+url:  #the url of your site
 
 # Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
 tag_manager_id: # This looks something like GTM-XXXXXXX

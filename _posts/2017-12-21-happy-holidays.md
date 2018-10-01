@@ -2,6 +2,7 @@
 layout: post
 title: Happy Holidays!
 summary: Food and winter break
+origin : "#news"
 ---
 Hello! Today, we'll have the last Markville Robotics club meeting of the year. We'll also have cookies.
 We wish you whatever holiday you may celebrate during the winter.

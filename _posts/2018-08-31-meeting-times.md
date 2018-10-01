@@ -2,6 +2,7 @@
 layout: post
 title: "Meeting Times"
 summary: "Meetings on Tuesdays!"
+origin : "#news"
 ---
 Hello There!
 
