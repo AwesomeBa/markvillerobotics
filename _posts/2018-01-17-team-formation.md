@@ -2,6 +2,7 @@
 layout: post
 title: Cancelled Meetings
 summary: And Skills Ontatio
+origin : "#news"
 ---
 Hello,
 

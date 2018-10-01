@@ -2,6 +2,7 @@
 layout: post
 title: Bucket of Code
 summary: New Code repository
+origin : "#news"
 ---
 Hello!
 

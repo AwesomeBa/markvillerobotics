@@ -2,6 +2,7 @@
 layout: post
 title: Contest Cancelled
 summary: :(
+origin : "#news"
 ---
 Hello.
 
